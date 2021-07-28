@@ -2,25 +2,25 @@
 Dear OSP users, 
 
 We are happy to announce that the new Version 10 of PK-Sim and MoBi is now available for beta-testing. The beta-test phase will last untill the **end of August**.
-The goal of the beta release is to give you an opportunity to test the new features and let us know if you have any problems with the new implementation.
+The goal of the beta release is to give you an opportunity to test the new features and to let us know if you have any problems or feedback regarding the new implementation.
 
-How can you test the new features?
-you can use the *portable versions* of PK-Sim and MoBi  (download links below). The portable versions do not require installation and can be used in parallel to the official OSP Suite 9.
+## How can you test the new features?
+You can use the *portable versions* of PK-Sim and MoBi  (download links below). The portable versions do not require installation and can be used in parallel to the official OSP Suite 9.
 
 Your feedback on the new features is highly welcome.
 
-**Important**: The beta-test versions are not final released software packages: please use them for testing purposes only, but not for productive work.
+**Important**: The beta-test versions are not final released of the software packages: please use them for testing purposes only, but not for productive work.
 
-# Downloads:
+## Downloads:
 
-- [PK-Sim 10 beta portable TODO](TODO)
+- [PK-Sim 10 beta portable](pk-sim-portable.open-systems-pharmacology.org)
 
-- [MOBI 10 beta portable TODO](TODO)
+- [MOBI 10 beta portable](mobi-portable.open-systems-pharmacology.org)
 
 ## New features
 
 ### Modeling of Protein expressions in PK-Sim redesigned and extended
-S. the [documentation](https://docs.open-systems-pharmacology.org/v/v10/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data) for details.
+See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data) for details.
 
 
 
@@ -31,7 +31,7 @@ S. the [documentation](https://docs.open-systems-pharmacology.org/v/v10/working-
   * Transporters: introduction of **fraction expressed apical/basolateral** (Kidney/Liver/GI) and **fraction expressed blood brain barrier/tissue** (brain)
 * Introduction of **Initial Protein Concentration** as explicit parameter
 
-S. [Localizations and initial concentrations of enzymes](https://docs.open-systems-pharmacology.org/v/v10/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data#localizations-and-initial-concentrations-of-enzymes) and [Localizations, directions, and initial concentrations of transport proteins](https://docs.open-systems-pharmacology.org/v/v10/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data#localizations-directions-and-initial-concentrations-of-transport-proteins) for the detailed description.
+See [Localizations and initial concentrations of enzymes](https://docs.open-systems-pharmacology.org/v/v10/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data#localizations-and-initial-concentrations-of-enzymes) and [Localizations, directions, and initial concentrations of transport proteins](https://docs.open-systems-pharmacology.org/v/v10/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data#localizations-directions-and-initial-concentrations-of-transport-proteins) for the detailed description.
 
 *  New transporter types:
 
@@ -45,7 +45,7 @@ S. [Localizations and initial concentrations of enzymes](https://docs.open-syste
 
 ### Observed data import in PK-Sim and MoBi redesigned and extended
 
-S. the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-tools-and-example-workflows/import-edit-observed-data) for details.
+See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-tools-and-example-workflows/import-edit-observed-data) for details.
 
 * Better support for "Nonmem like" data formats (s. [Supported Formats](https://docs.open-systems-pharmacology.org/v/v10/shared-tools-and-example-workflows/import-edit-observed-data#supported-formats))
 
@@ -72,6 +72,7 @@ S. the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-t
 ## Fixed issues and Improvements
 
 ### PK-Sim
+
 
 * [Bug comparison chart population](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1825)
 * [Plots: Default background color does not match](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1822)
