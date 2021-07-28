@@ -1,10 +1,15 @@
-# ß-Release of PK-Sim 10 and MoBi 10
-Dear OSP users, we are happy to announce that new Version 10 of PK-Sim and MoBi is now available for the ß-testing. The ß-test phase will last till the **end of August**.
-If you would like to test the new features: you can use the *portable versions* of PK-Sim and MoBi  (download links below). Portable versions do not require installation and can be used in parallel to OSP Suite 9.
+# Beta-Release of PK-Sim 10 and MoBi 10
+Dear OSP users, 
+
+We are happy to announce that the new Version 10 of PK-Sim and MoBi is now available for beta-testing. The beta-test phase will last untill the **end of August**.
+The goal of the beta release is to give you an opportunity to test the new features and let us know if you have any problems with the new implementation.
+
+How can you test the new features?
+you can use the *portable versions* of PK-Sim and MoBi  (download links below). The portable versions do not require installation and can be used in parallel to the official OSP Suite 9.
 
 Your feedback on the new features is highly welcome.
 
-**Important**: as the ß-Test versions are not final released software packages: please use them for testing purposes only, but not for productive work.
+**Important**: The beta-test versions are not final released software packages: please use them for testing purposes only, but not for productive work.
 
 # Downloads:
 
