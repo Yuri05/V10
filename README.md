@@ -9,7 +9,7 @@ You can use the *portable versions* of PK-Sim and MoBi  (download links below). 
 
 Your feedback on the new features is highly welcome.
 
-**Important**: The beta-test versions are not final released of the software packages: please use them for testing purposes only, but not for productive work.
+**Important**: The beta-test versions are not final releases of the software packages: please use them for testing purposes only, but not for productive work.
 
 ## Downloads:
 
@@ -81,6 +81,9 @@ See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-
 * [Export time profile analysis change the units](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1640)
 * [Renaming protein in individual does not trigger changed state of simulation](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1451)
 * [Information in advanced protocol is lost in snapshot](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1601)
+* [Wrong parameter descriptions](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1810)
+* [The predefined templates for age groups are not supported anymore](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1679)
+* [PI: "Id not unique"](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1299)
 
 
 ### MoBi
@@ -89,6 +92,7 @@ See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-
 * [Manual input for event assignment path](https://github.com/Open-Systems-Pharmacology/MoBi/issues/485)
 * [Container criteria "in container" only applies for the children of the container](https://github.com/Open-Systems-Pharmacology/MoBi/issues/523)
 * [Molecule keyword replacement does not work for global parmaeter referencing other global molecule parameters](https://github.com/Open-Systems-Pharmacology/OSPSuite.Core/issues/832)
+* [Drag and drop of parameter to the "references area" does not work](https://github.com/Open-Systems-Pharmacology/MoBi/issues/507)
 
 ### PK-Sim and MoBi
 
