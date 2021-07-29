@@ -33,8 +33,7 @@ See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/working
 
 See [Localizations and initial concentrations of enzymes](https://docs.open-systems-pharmacology.org/v/v10/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data#localizations-and-initial-concentrations-of-enzymes) and [Localizations, directions, and initial concentrations of transport proteins](https://docs.open-systems-pharmacology.org/v/v10/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data#localizations-directions-and-initial-concentrations-of-transport-proteins) for the detailed description.
 
-*  New transporter types:
-
+* New transporter types:
   * Plasma <=> Blood Cells
   * Plasma <=> Interstitial
   * Bidirectional
