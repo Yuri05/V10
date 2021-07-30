@@ -50,7 +50,7 @@ See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-
 
 * Fully redesigned user interface
 
-  ![](https://gblobscdn.gitbook.com/assets%2F-LNl6UIiFP7k0sNQthlR%2Fsync%2F3c2f3e00a59c3d06e3dc9cea7db2ef15399c25c8.png?alt=media)
+  ![](https://gblobscdn.gitbook.com/assets%2F-LNl6UIiFP7k0sNQthlR%2Fsync%2F8e87a7442c2e18566eed7136718bf39da826c8ff.png?alt=media)
 
 * Import configuration can be saved and reused
 
