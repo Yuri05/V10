@@ -27,7 +27,7 @@ See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/working
 ![](https://user-images.githubusercontent.com/25061876/127345732-874fac2b-220a-40f5-8f5c-92bcdd59128c.PNG)
 
 * More flexible protein localization settings
-  * Enzymes/Binding partners (**BP**): introduction of **fraction expressed** in different compartments
+  * Enzymes/Binding partners: introduction of **fraction expressed** in different compartments
   * Transporters: introduction of **fraction expressed apical/basolateral** (Kidney/Liver/GI) and **fraction expressed blood brain barrier/tissue** (brain)
 * Introduction of **Initial Protein Concentration** as explicit parameter
 
