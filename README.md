@@ -1,7 +1,7 @@
 # Beta-Release of PK-Sim 10 and MoBi 10
 Dear OSP users, 
 
-We are happy to announce that the new Version 10 of PK-Sim and MoBi is now available for beta-testing. The beta-test phase will last untill the **end of August**.
+We are happy to announce that the new Version 10 of PK-Sim and MoBi is now available for beta-testing. The beta-test phase will last until the **end of August**.
 The goal of the beta release is to give you an opportunity to test the new features and to let us know if you have any problems or feedback regarding the new implementation.
 
 ## How can you test the new features?
@@ -90,7 +90,7 @@ See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-
 * [Tags for event groups](https://github.com/Open-Systems-Pharmacology/MoBi/issues/487)
 * [Manual input for event assignment path](https://github.com/Open-Systems-Pharmacology/MoBi/issues/485)
 * [Container criteria "in container" only applies for the children of the container](https://github.com/Open-Systems-Pharmacology/MoBi/issues/523)
-* [Molecule keyword replacement does not work for global parmaeter referencing other global molecule parameters](https://github.com/Open-Systems-Pharmacology/OSPSuite.Core/issues/832)
+* [Molecule keyword replacement does not work for global parameter referencing other global molecule parameters](https://github.com/Open-Systems-Pharmacology/OSPSuite.Core/issues/832)
 * [Drag and drop of parameter to the "references area" does not work](https://github.com/Open-Systems-Pharmacology/MoBi/issues/507)
 
 ### PK-Sim and MoBi
