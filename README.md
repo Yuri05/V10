@@ -15,7 +15,7 @@ Your feedback on the new features is highly welcome.
 
 - [PK-Sim 10 beta portable](http://pk-sim-portable.open-systems-pharmacology.org)
 
-- [MOBI 10 beta portable](http://mobi-portable.open-systems-pharmacology.org)
+- [MoBi 10 beta portable](http://mobi-portable.open-systems-pharmacology.org)
 
 ## New features
 
