@@ -1,28 +1,28 @@
-# Beta-Release of PK-Sim 10 and MoBi 10
-Dear OSP users, 
+# Downloads:
 
-We are happy to announce that the new Version 10 of PK-Sim and MoBi is now available for beta-testing. The beta-test phase will last until the **end of August**.
-The goal of the beta release is to give you an opportunity to test the new features and to let us know if you have any problems or feedback regarding the new implementation.
+- [Full setup TODO link](XXX)
 
-## How can you test the new features?
-You can use the *portable versions* of PK-Sim and MoBi  (download links below). The portable versions do not require installation and can be used in parallel to the official OSP Suite 9.
+- [**ospsuite** R package TODO link](XXX)
 
-Your feedback on the new features is highly welcome.
+- [Gene expression database (human)](https://github.com/Open-Systems-Pharmacology/Gene-Expression-Databases/releases/download/v2.0.0/GENEDB_human.expressionDb)
 
-**Important**: The beta-test versions are not final releases of the software packages: please use them for testing purposes only, but not for productive work.
-
-## Downloads:
-
-- [PK-Sim 10 beta portable](http://pk-sim-portable.open-systems-pharmacology.org)
-
-- [MoBi 10 beta portable](http://mobi-portable.open-systems-pharmacology.org)
+# Release Notes for the Open Systems Pharmacology Software Suite 10
 
 ## New features
 
+### New population templates (Chronic Kidney Disease) added
+
+3 CKD population templates added (based on the publication [Malik PRV, Yeung CHT, Advani U, Dije S, Edginton AN. A Physiological Approach to Pharmacokinetics in Chronic Kidney Disease. J Clin Pharmacol 2020. 60 Suppl 1: S52-S62. doi: 10.1002/jcph.1713](https://accp1.onlinelibrary.wiley.com/doi/full/10.1002/jcph.1713)):
+* **CKD - Stage 3**: defined as patients with GFR of `31 - 60 [mL/min/1.73m²]`
+* **CKD - Stage 4**: defined as patients with GFR of `16 - 30 [mL/min/1.73m²]`
+* **CKD - Stage 5**: defined as patients with GFR of   ` 1 - 15 [mL/min/1.73m²]`
+
+Each population includes 1000 individuals aged 18-80 years old, 50% male, based on European population (ICRP)
+
+![](https://user-images.githubusercontent.com/25061876/127352299-413b934e-0a31-4be2-ac1f-adffe80f973a.PNG)
+
 ### Modeling of Protein expressions in PK-Sim redesigned and extended
 See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data) for details.
-
-
 
 ![](https://user-images.githubusercontent.com/25061876/127345732-874fac2b-220a-40f5-8f5c-92bcdd59128c.PNG)
 
@@ -64,14 +64,9 @@ See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-
 
   ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LNl6UIiFP7k0sNQthlR%2Fsync%2Fd5c36dd11136d5f29c6e42ae08f7bd86570e33ac.png?generation=1624564037744769&alt=media)
 
-### New population templates (Chronic Kidney Disease) added
-
-![](https://user-images.githubusercontent.com/25061876/127352299-413b934e-0a31-4be2-ac1f-adffe80f973a.PNG)
-
 ## Fixed issues and Improvements
 
 ### PK-Sim
-
 
 * [Bug comparison chart population](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1825)
 * [Plots: Default background color does not match](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1822)
@@ -83,7 +78,6 @@ See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-
 * [Wrong parameter descriptions](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1810)
 * [The predefined templates for age groups are not supported anymore](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1679)
 * [PI: "Id not unique"](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1299)
-
 
 ### MoBi
 
