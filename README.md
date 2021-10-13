@@ -21,8 +21,23 @@ Each population includes 1000 individuals aged 18-80 years old, 50% male, based 
 
 ![](https://user-images.githubusercontent.com/25061876/127352299-413b934e-0a31-4be2-ac1f-adffe80f973a.PNG)
 
+### OSP Platform qualification library and PBPK Models Library
+#### PBPK Models library extended
+New PBPK models were added:
+* Amikacin
+* Montelukast
+* Raltegravir
+* Sufentanil
+* Vancomycine
+
+Model building process and model quality of every new PBPK model is documented in the corresponding _model evaluation report_. 
+#### New releases of OSP Platform qualification library and PBPK Models Library
+As with every new OSP Suite release, ALL platform qualification reports and model evaluation reports have been recreated with the new version of the OSP suite and the latest version of the [_OSP Qualification Framework_](https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/latest):
+* [**_OSP Qualification Reports library_**](https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports) ([https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports](https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports))
+* [**_OSP-PBPK-Model-Library_**](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library)([https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library))
+
 ### Modeling of Protein expressions in PK-Sim redesigned and extended
-See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data) for details.
+See the [documentation](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data) for details.
 
 ![](https://user-images.githubusercontent.com/25061876/127345732-874fac2b-220a-40f5-8f5c-92bcdd59128c.PNG)
 
@@ -31,7 +46,7 @@ See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/working
   * Transporters: introduction of **fraction expressed apical/basolateral** (Kidney/Liver/GI) and **fraction expressed blood brain barrier/tissue** (brain)
 * Introduction of **Initial Protein Concentration** as explicit parameter
 
-See [Localizations and initial concentrations of enzymes](https://docs.open-systems-pharmacology.org/v/v10/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data#localizations-and-initial-concentrations-of-enzymes) and [Localizations, directions, and initial concentrations of transport proteins](https://docs.open-systems-pharmacology.org/v/v10/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data#localizations-directions-and-initial-concentrations-of-transport-proteins) for the detailed description.
+See [Localizations and initial concentrations of enzymes](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data#localizations-and-initial-concentrations-of-enzymes) and [Localizations, directions, and initial concentrations of transport proteins](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data#localizations-directions-and-initial-concentrations-of-transport-proteins) for the detailed description.
 
 * New transporter types:
   * Plasma <=> Blood Cells
@@ -44,9 +59,9 @@ See [Localizations and initial concentrations of enzymes](https://docs.open-syst
 
 ### Observed data import in PK-Sim and MoBi redesigned and extended
 
-See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-tools-and-example-workflows/import-edit-observed-data) for details.
+See the [documentation](https://docs.open-systems-pharmacology.org/shared-tools-and-example-workflows/import-edit-observed-data) for details.
 
-* Better support for "Nonmem like" data formats (s. [Supported Formats](https://docs.open-systems-pharmacology.org/v/v10/shared-tools-and-example-workflows/import-edit-observed-data#supported-formats))
+* Better support for "Nonmem like" data formats (s. [Supported Formats](https://docs.open-systems-pharmacology.org/shared-tools-and-example-workflows/import-edit-observed-data#supported-formats))
 
 * Fully redesigned user interface
 
@@ -64,6 +79,23 @@ See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-
 
   ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LNl6UIiFP7k0sNQthlR%2Fsync%2Fd5c36dd11136d5f29c6e42ae08f7bd86570e33ac.png?generation=1624564037744769&alt=media)
 
+### InVitro-InVivo calibration of intestinal permeability
+TODO description and Link to WIKI 
+![grafik](https://user-images.githubusercontent.com/25061876/137127894-edd9fe18-d992-4418-a330-91b2e5704ce2.png)
+
+### New release of the **ospsuite** R package
+
+* Many Fixed issues and Improvements (s. TODO link to ospsuite-R 10.0.X Release)
+* Significantly improved performance on multicore machines (s. [Efficient calculation with the ospsuite R package](https://www.open-systems-pharmacology.org/OSPSuite-R/articles/efficient-calculations.html))
+
+S. [documentation of the new R-Toolbox](https://www.open-systems-pharmacology.org/OSPSuite-R/) for detailed description and usage examples.
+
+### (Re-)Qualification framework updated
+OSP (Re-)Qualification framework is a technical framework to assess the confidence of specific intended use of the OSP platform. This framework allows for an automatic (re)-qualification workflow of the OSP suite. New release of the OSP (Re-)Qualification framework provides some improvements and bugfixes (s. below).
+
+* (Re-)Qualification framework is not part of the OSP Suite setup (is only required for the creation of qualification reports) and must be installed separately. The latest release can be found [here](https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/latest)
+* Full documentation of the (Re-)Qualification framework can be found [here](https://docs.open-systems-pharmacology.org/shared-tools-and-example-workflows/qualification)
+
 ## Fixed issues and Improvements
 
 ### PK-Sim
@@ -78,6 +110,7 @@ See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-
 * [Wrong parameter descriptions](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1810)
 * [The predefined templates for age groups are not supported anymore](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1679)
 * [PI: "Id not unique"](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1299)
+* [Bug: Drug and Metabolite transporter inhibition](https://github.com/Open-Systems-Pharmacology/PK-Sim/issues/1861)
 
 ### MoBi
 
@@ -91,3 +124,4 @@ See the [documentation](https://docs.open-systems-pharmacology.org/v/v10/shared-
 
 * [PI Corrupted when referencing a process parameter that is removed from the simulation](https://github.com/Open-Systems-Pharmacology/OSPSuite.Core/issues/497)
 * [Parameter  Identification: When User close and reopen the PI the results section  shown the new boundaries and not those used in the PI run](https://github.com/Open-Systems-Pharmacology/OSPSuite.Core/issues/818)
+
