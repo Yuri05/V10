@@ -85,7 +85,7 @@ TODO description and Link to WIKI
 
 ### New release of the **ospsuite** R package
 
-* Many Fixed issues and Improvements (s. TODO link to ospsuite-R 10.0.X Release)
+* Many Fixed issues and Improvements (s. the [Release](https://github.com/Open-Systems-Pharmacology/OSPSuite-R/releases/tag/v10.0.70))
 * Significantly improved performance on multicore machines (s. [Efficient calculation with the ospsuite R package](https://www.open-systems-pharmacology.org/OSPSuite-R/articles/efficient-calculations.html))
 
 S. [documentation of the new R-Toolbox](https://www.open-systems-pharmacology.org/OSPSuite-R/) for detailed description and usage examples.
