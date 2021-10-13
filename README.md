@@ -28,7 +28,7 @@ New PBPK models were added:
 * Montelukast
 * Raltegravir
 * Sufentanil
-* Vancomycine
+* Vancomycin
 
 Model building process and model quality of every new PBPK model is documented in the corresponding _model evaluation report_. 
 #### New releases of OSP Platform qualification library and PBPK Models Library
