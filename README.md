@@ -44,7 +44,7 @@ See the [documentation](https://docs.open-systems-pharmacology.org/working-with-
 * More flexible protein localization settings
   * Enzymes/Binding partners: introduction of **fraction expressed** in different compartments
   * Transporters: introduction of **fraction expressed apical/basolateral** (Kidney/Liver/GI) and **fraction expressed blood brain barrier/tissue** (brain)
-* Introduction of **Initial Protein Concentration** as visible parameter
+* Introduction of **Initial Protein Concentration** as explicit parameter
 
 See [Localizations and initial concentrations of enzymes](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data#localizations-and-initial-concentrations-of-enzymes) and [Localizations, directions, and initial concentrations of transport proteins](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/pk-sim-expression-data#localizations-directions-and-initial-concentrations-of-transport-proteins) for detailed descriptions.
 
