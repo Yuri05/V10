@@ -2,7 +2,7 @@
 
 - [Full setup TODO link](XXX)
 
-- [**ospsuite** R package TODO link](XXX)
+- [**ospsuite** R package](https://github.com/Open-Systems-Pharmacology/OSPSuite-R/releases/tag/v10.0.72)
 
 - [Gene expression database (human)](https://github.com/Open-Systems-Pharmacology/Gene-Expression-Databases/releases/download/v2.0.0/GENEDB_human.expressionDb)
 
@@ -80,12 +80,12 @@ See the [documentation](https://docs.open-systems-pharmacology.org/shared-tools-
   ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LNl6UIiFP7k0sNQthlR%2Fsync%2Fd5c36dd11136d5f29c6e42ae08f7bd86570e33ac.png?generation=1624564037744769&alt=media)
 
 ### InVitro-InVivo calibration of intestinal permeability
-TODO description and Link to WIKI 
+S. [Intestinal Permeability Calibration](https://github.com/Open-Systems-Pharmacology/PK-Sim/wiki/Intestinal-Permeability-Calibration) for details.
 ![grafik](https://user-images.githubusercontent.com/25061876/137127894-edd9fe18-d992-4418-a330-91b2e5704ce2.png)
 
 ### New release of the **ospsuite** R package
 
-* Many Fixed issues and Improvements (s. the [**ospsuite** R package news page](https://www.open-systems-pharmacology.org/OSPSuite-R/news/index.html) and the [**ospsuite** R package release page](https://github.com/Open-Systems-Pharmacology/OSPSuite-R/releases/tag/v10.0.70) for details)
+* Many Fixed issues and Improvements (s. the [**ospsuite** R package news page](https://www.open-systems-pharmacology.org/OSPSuite-R/news/index.html) and the [**ospsuite** R package release page](https://github.com/Open-Systems-Pharmacology/OSPSuite-R/releases/tag/v10.0.72) for details)
 * Significantly improved performance on multicore machines (s. [Efficient calculation with the ospsuite R package](https://www.open-systems-pharmacology.org/OSPSuite-R/articles/efficient-calculations.html))
 * R 4.x is now supported.
 
